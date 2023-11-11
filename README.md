@@ -60,9 +60,21 @@ If you recently created the project or cloned it from a repository, make sure to
 
 bash
 npm install
+
+
+
 This will install the dependencies specified in your package.json.
 
 Check for typos:
 Ensure there are no typos in the script name or in the command. The script name is case-sensitive, so make sure it's exactly "start" in lowercase.
+```
+
+```
+├── chai@4.3.7
+├── chromedriver@112.0.0
+├── license.js@3.1.2
+├── mocha@10.2.0
+└── selenium-webdriver@4.9.0
+
 ```
 
