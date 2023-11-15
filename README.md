@@ -77,4 +77,22 @@ Ensure there are no typos in the script name or in the command. The script name 
 └── selenium-webdriver@4.9.0
 
 ```
+<br>
+#Example Js Mocha
+```
+Run the Tests:
+Execute the tests using the Mocha test runner:
+```
+npx mocha your_test_script.js
+```
 
+#Explanation of Selenium Methods:
+
+-driver.get(url): Navigates to the specified URL.
+-driver.findElement(By.locator): Finds the first element matching the given locator strategy.
+-sendKeys(keys): Types the specified keys into the element.
+-click(): Clicks the element.
+-getText(): Gets the visible text of the element.
+-assert.strictEqual(actual, expected): Asserts that the actual value is strictly equal to the expected value.
+
+```
