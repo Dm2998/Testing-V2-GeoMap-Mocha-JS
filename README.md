@@ -1,5 +1,5 @@
 # Testing-V2-GeoMap-Mocha-JS
-Testing_bike_Rental_Project_Mocha_JavaScript 
+Testing_bike_Rental_Project_Mocha_JavaScript.
 
 This code verifies that certain elements are present on the page or performs specific actions on the Rental Bike website.
 Analyze the results: Examine the output of the test code and determine if the test passed or failed.
@@ -25,6 +25,7 @@ npm install -g chromedriver
 Specify Chromedriver Version:
 If the issue persists, you can try specifying the Chromedriver version in your package.json file. Add the following line:
 You can find the available versions on the npm Chromedriver page.
+
 npm install chromedriver
 
 npm test
@@ -56,7 +57,7 @@ If your npm version is outdated, you can update it using:
 bash
 npm install -g npm@latest
 Install dependencies:
-If you recently created the project or cloned it from a repository, make sure to install the dependencies. Run the following command in your project directory:
+If you recently created the project or Cloned it from a repository, make sure to install the dependencies. Run the following command in your project directory:
 
 bash
 npm install
