@@ -3,7 +3,7 @@ Testing_bike_Rental_Project_Mocha_JavaScript.
 
 This code verifies that certain elements are present on the page or performs specific actions on the Rental Bike website.
 Analyze the results: Examine the output of the test code and determine if the test passed or failed.
-Report Results: Document the results of the test, it includes all the code implemented and  can also see that the test resulted in a pass test.
+Report Results: Document the results of the test, it includes all the code implemented, and  can also see that the test resulted in a pass test.
 
 ![Screenshot 2023-04-25 123221](https://user-images.githubusercontent.com/114578666/235265960-25f1ce42-c050-4f24-b738-cfc728eaacff.png)
 
@@ -39,13 +39,13 @@ npm test
  Let's go through the steps to resolve this issue:
 
 Check package.json for "scripts" section:
-Open your package.json file and make sure it contains a "scripts" section. If it doesn't exist, add it:
+Open your package.json file and make sure, it contains a "Scripts" section. If it doesn't exist, add it:
 
 json
 "scripts": {
   "start": "your-start-command-here"
 }
-Replace "your-start-command-here" with the actual command you want to run when you start your project.
+Replace "your-start-command-here" with the actual command, you want to run when you start your project.
 
 Verify npm version:
 Ensure you have a recent version of npm installed. Run the following command to check your npm version:
